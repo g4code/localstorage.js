@@ -1,4 +1,4 @@
-define(function(){
+;(function() {
 
     var LocalStorage = function(){};
 
@@ -46,5 +46,13 @@ define(function(){
         }
     };
 
-    return new LocalStorage();
-});
+    if (typeof define != 'undefined' && define.hasOwnProperty('amd') && define.amd) { // RequireJS AMD
+        define(function(){
+            return LocalStorage;
+        });
+    } else if (typeof window != 'undefined') { // Fall back to attaching to window
+        window.G4 = typeof G4 != "undefined" ? G4 : {};
+        window.G4.LocalStorage
+    };
+
+}).call(this);
