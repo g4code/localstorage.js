@@ -1,0 +1,22 @@
+{
+  "name": "localstorage.js",
+  "main": "localstorage.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/g4code/localstorage.js",
+  "authors": [
+    "Drasko Gomboc <drasko.gomboc@gmail.com>",
+    "Zeljko Simic <zeljkosbgd@gmail.com>"
+  ],
+  "description": "localstorage wrapper",
+  "keywords": [
+    "localstorage"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
