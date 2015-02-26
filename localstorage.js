@@ -52,7 +52,7 @@
         });
     } else if (typeof window != 'undefined') { // Fall back to attaching to window
         window.G4 = typeof G4 != "undefined" ? G4 : {};
-        window.G4.LocalStorage
+        window.G4.LocalStorage = LocalStorage;
     };
 
 }).call(this);
