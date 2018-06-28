@@ -1,0 +1,26 @@
+{
+  "name": "g4.localstorage.js",
+  "version": "1.0.0",
+  "description": "localstorage.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g4code/localstorage.js.git"
+  },
+  "keywords": [
+    "localstorage.js"
+  ],
+  "author": "G4 Code <office@g4code.com>",
+  "maintainers": [
+    "Drasko Gomboc <drasko.gomboc@gmail.com>",
+    "Zeljko Simic <zeljkosbgd@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/g4code/localstorage.js/issues"
+  },
+  "homepage": "https://github.com/g4code/localstorage.js#readme"
+}
